@@ -11,7 +11,7 @@ author: bonova
 ms.author: bonova
 ms.reviewer: carlrab
 manager: craigg
-ms.date: 12/03/2018
+ms.date: 01/30/2019
 ---
 # Use SQL Database Managed Instance with virtual networks and near 100% compatibility
 
@@ -208,7 +208,7 @@ Managed Instance benefits from being always-up-to-date in the cloud, which means
 
 ### Managed Instance administration features
 
-Managed Instance enable system administrator to focus on what matters the most for business. Many system administrator/DBA activities are not required, or they are simple. For example, OS / RDBMS installation and patching, dynamic instance resizing and configuration, backups, [database replication](replication-with-sql-database-managed-instance.md) (including system databases), high availability configuration, and configuration of health and [performance monitoring](../azure-monitor/insights/azure-sql.md) data streams.
+As a PaaS service, Azure SQL Database managed instance performs many administrator/ DBA activities automatically and simplifies the performance of many other tasks. For example, [OS / RDBMS installation and patching](sql-database-high-availability.md), [dynamic instance resizing and configuration](sql-database-single-database-scale.md), [backups](sql-database-automated-backups.md), [database replication](replication-with-sql-database-managed-instance.md) (including system databases), [high availability configuration](sql-database-high-availability.md), and configuration of [health](sql-database-auditing.md) and [performance monitoring](../azure-monitor/insights/azure-sql.md) data streams.
 
 > [!IMPORTANT]
 > For a list of supported, partially supported, and unsupported features, see [SQL Database features](sql-database-features.md). For a list of T-SQL differences in Managed Instances versus SQL Server, see [Managed Instance T-SQL Differences from SQL Server](sql-database-managed-instance-transact-sql-information.md)
